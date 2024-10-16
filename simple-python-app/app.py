@@ -6,6 +6,10 @@ app = Flask(__name__)
 def hello():
     return 'Hello, this is / URI and called as root!'
 
+
+def hello_dummy():
+    return 'Hello, this is / URI and called as root!'
+
 if __name__ == '__main__':
     app.run()
 
